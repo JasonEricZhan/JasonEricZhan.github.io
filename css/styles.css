@@ -603,6 +603,18 @@ pre code {
   padding-left: 0.75rem;
 }
 
+
+.radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
+
+.radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
+	padding-bottom: 25px!important; color: #333!important; }
+/*
+.radial-progress .progressbar-text:after{ content:'%'; }*/
+
+.radial-progress .progress-title{ font-weight:bold; position: absolute; top: 30%; left: 50%; width: 100%;
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
+
+
 .col {
   flex-basis: 0;
   flex-grow: 1;
